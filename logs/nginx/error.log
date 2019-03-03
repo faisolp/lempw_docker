@@ -1,0 +1,74 @@
+2019/03/03 14:13:36 [notice] 30#30: signal process started
+2019/03/03 14:27:12 [notice] 33#33: signal process started
+2019/03/03 14:31:12 [error] 34#34: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET / HTTP/1.1", upstream: "http://172.19.0.4:8000/", host: "phpmyadmin"
+2019/03/03 14:31:12 [error] 34#34: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.19.0.4:8000/favicon.ico", host: "phpmyadmin"
+2019/03/03 14:31:14 [error] 34#34: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET / HTTP/1.1", upstream: "http://172.19.0.4:8000/", host: "phpmyadmin"
+2019/03/03 14:36:52 [error] 34#34: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET /index.php HTTP/1.1", upstream: "http://172.19.0.4:8000/index.php", host: "phpmyadmin"
+2019/03/03 14:37:47 [error] 34#34: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET / HTTP/1.1", upstream: "http://172.19.0.4:8000/", host: "phpmyadmin"
+2019/03/03 14:48:59 [error] 34#34: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET /index.php HTTP/1.1", upstream: "http://172.19.0.4:8000/index.php", host: "phpmyadmin"
+2019/03/03 14:49:03 [error] 34#34: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET /index.php HTTP/1.1", upstream: "http://172.19.0.4:8000/index.php", host: "phpmyadmin"
+2019/03/03 16:21:44 [notice] 35#35: signal process started
+2019/03/03 16:51:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://104.18.54.229:8000/", host: "localhost"
+2019/03/03 16:51:31 [error] 36#36: *26 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://104.18.54.229:8000/", host: "localhost"
+2019/03/03 16:52:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://104.18.55.229:8000/", host: "localhost"
+2019/03/03 16:52:31 [error] 36#36: *26 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://104.18.55.229:8000/", host: "localhost"
+2019/03/03 16:52:31 [error] 36#36: *26 connect() to [2606:4700:30::6812:37e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/", host: "localhost"
+2019/03/03 16:52:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/", host: "localhost"
+2019/03/03 16:52:31 [error] 36#36: *26 connect() to [2606:4700:30::6812:36e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/", host: "localhost"
+2019/03/03 16:52:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/", host: "localhost"
+2019/03/03 16:52:31 [error] 36#36: *32 no live upstreams while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://phpmyadmin.dev/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://104.18.54.229:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [error] 36#36: *26 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://104.18.54.229:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [error] 36#36: *26 connect() to [2606:4700:30::6812:36e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [error] 36#36: *26 connect() to [2606:4700:30::6812:37e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/favicon.ico", host: "localhost"
+2019/03/03 16:53:44 [error] 36#36: *36 connect() to [2606:4700:30::6812:36e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /index.php HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/index.php", host: "phpmyadmin"
+2019/03/03 16:53:44 [warn] 36#36: *36 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /index.php HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/index.php", host: "phpmyadmin"
+2019/03/03 16:54:04 [error] 36#36: *39 connect() to [2606:4700:30::6812:37e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/", host: "phpmyadmin"
+2019/03/03 16:54:04 [warn] 36#36: *39 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:37e5]:8000/", host: "phpmyadmin"
+2019/03/03 16:54:04 [error] 36#36: *39 connect() to [2606:4700:30::6812:36e5]:8000 failed (101: Network unreachable) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/", host: "phpmyadmin"
+2019/03/03 16:54:04 [warn] 36#36: *39 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET / HTTP/1.1", upstream: "http://[2606:4700:30::6812:36e5]:8000/", host: "phpmyadmin"
+2019/03/03 16:54:31 [warn] 36#36: *26 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://104.18.55.229:8000/favicon.ico", host: "localhost"
+2019/03/03 16:54:31 [error] 36#36: *26 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin.dev, request: "GET /favicon.ico HTTP/1.1", upstream: "http://104.18.55.229:8000/favicon.ico", host: "localhost"
+2019/03/03 16:54:39 [notice] 37#37: signal process started
+2019/03/03 16:54:48 [error] 38#38: *45 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: phpmyadmin, request: "GET / HTTP/1.1", upstream: "http://172.19.0.4:8000/", host: "phpmyadmin"
+2019/03/03 16:57:07 [notice] 39#39: signal process started
+2019/03/03 16:59:49 [error] 40#40: *60 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/wp-includes/wp-db.php:1645
+Stack trace:
+#0 /www/wp-admin/setup-config.php(305): wpdb->db_connect()
+#1 {main}
+  thrown in /www/wp-includes/wp-db.php on line 1645" while reading response header from upstream, client: 172.19.0.1, server: wordpress, request: "POST /wp-admin/setup-config.php?step=2 HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "wordpress", referrer: "http://wordpress/wp-admin/setup-config.php?step=1"
+2019/03/03 17:02:47 [error] 40#40: *63 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/wp-includes/wp-db.php:1645
+Stack trace:
+#0 /www/wp-includes/wp-db.php(639): wpdb->db_connect()
+#1 /www/wp-includes/load.php(435): wpdb->__construct('admin', 'PASSWORD', 'projectdb', 'localhost')
+#2 /www/wp-settings.php(109): require_wp_db()
+#3 /www/wp-config.php(90): require_once('/www/wp-setting...')
+#4 /www/wp-load.php(37): require_once('/www/wp-config....')
+#5 /www/wp-blog-header.php(13): require_once('/www/wp-load.ph...')
+#6 /www/index.php(17): require('/www/wp-blog-he...')
+#7 {main}
+  thrown in /www/wp-includes/wp-db.php on line 1645" while reading response header from upstream, client: 172.19.0.1, server: wordpress, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "wordpress"
+2019/03/03 17:02:56 [error] 40#40: *63 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/wp-includes/wp-db.php:1645
+Stack trace:
+#0 /www/wp-includes/wp-db.php(639): wpdb->db_connect()
+#1 /www/wp-includes/load.php(435): wpdb->__construct('admin', 'PASSWORD', 'projectdb', 'localhost')
+#2 /www/wp-settings.php(109): require_wp_db()
+#3 /www/wp-config.php(90): require_once('/www/wp-setting...')
+#4 /www/wp-load.php(37): require_once('/www/wp-config....')
+#5 /www/wp-blog-header.php(13): require_once('/www/wp-load.ph...')
+#6 /www/index.php(17): require('/www/wp-blog-he...')
+#7 {main}
+  thrown in /www/wp-includes/wp-db.php on line 1645" while reading response header from upstream, client: 172.19.0.1, server: wordpress, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "wordpress"
+2019/03/03 17:03:11 [error] 40#40: *63 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/wp-includes/wp-db.php:1645
+Stack trace:
+#0 /www/wp-includes/wp-db.php(639): wpdb->db_connect()
+#1 /www/wp-includes/load.php(435): wpdb->__construct('admin', 'PASSWORD', 'projectdb', 'localhost')
+#2 /www/wp-settings.php(109): require_wp_db()
+#3 /www/wp-config.php(90): require_once('/www/wp-setting...')
+#4 /www/wp-load.php(37): require_once('/www/wp-config....')
+#5 /www/wp-blog-header.php(13): require_once('/www/wp-load.ph...')
+#6 /www/index.php(17): require('/www/wp-blog-he...')
+#7 {main}
+  thrown in /www/wp-includes/wp-db.php on line 1645" while reading response header from upstream, client: 172.19.0.1, server: wordpress, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "wordpress"
